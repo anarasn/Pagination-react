@@ -2,9 +2,73 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+
+}
+body{
+  background-color: hsl(195, 50%, 97%);
+}
+
+.user{
+  border:2px solid rgb(244, 239, 239);
+  border-radius: 10px;
+  background-color: #edf2f5;
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height:250px;
+  margin:45px
+}
+
+img{
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.75rem;
+}
+.profileBtn{
+  background-color: #20a9cf;
+  color:white;
+  border-radius: 10px;
+  border:  none;
+  cursor: pointer;
+  padding:4px;
+  width:120px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.paginationBtns{
+  width:60%;
+  height: 30px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+
+}
+.paginationBtns a{
+  padding: 8px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid;
+  background-color: #61dafb;
+  cursor: pointer;
+  
+
+}
+.paginationBtns a:hover{
+  color:white;
+  background-color: #1f2b2e;
+}
+.paginationActive a{
+  color:white;
+  background-color: #1f2b2e;
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
